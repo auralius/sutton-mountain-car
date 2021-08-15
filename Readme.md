@@ -11,3 +11,7 @@ This is an example for a 400 x 400 grid:
 ![](https://github.com/auralius/sutton-mountain-car/blob/main/animation.gif)
 
 ![](https://github.com/auralius/sutton-mountain-car/blob/main/policy_matrix.png)
+
+![](https://github.com/auralius/sutton-mountain-car/blob/main/results.png)
+
+![](https://github.com/auralius/sutton-mountain-car/blob/main/convergence.png)
