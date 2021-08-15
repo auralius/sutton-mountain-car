@@ -12,7 +12,7 @@ p = P_MIN: (P_MAX - P_MIN) / gridPos : P_MAX;
 %% Preparation for graphical components
 
 % Draw y = sine(3p)to representate a mountain
-figure;
+hfig = figure;
 hold on;
 plot(p, sin(3 * p));    
 
@@ -36,8 +36,9 @@ for index = 1 : length(XStar)
     set(lblTime,'String', index - 1);
     set(lblAction,'String', UStar(index));
     
-    drawnow
-    pause(0.1);
+    drawnow;
+    write2gif(hfig, index, "animation.gif");
+    %pause(0.1);
 end
 
 %% Plot the results.
