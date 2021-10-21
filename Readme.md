@@ -4,6 +4,7 @@
 
 Please chek [this pdf](https://github.com/auralius/sutton-mountain-car/blob/main/Mountain%20Car%20Task.pdf) file for the details on the problem.
 
+Please also check [this submission](https://www.mathworks.com/matlabcentral/fileexchange/100149-yadpf-yet-another-dynamic-programming-function), where a more general dynamic programming algorithm is used to sove the problem.
 
 This is an example for a 400 x 400 grid:
 
